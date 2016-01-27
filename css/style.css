@@ -1,0 +1,103 @@
+/* 共通 -------------------------------- */
+/* 1. font */
+/*ページ全体の文字サイズ*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #000000;
+}
+
+/* 2. link */
+/*ページ全体のリンクカラー*/
+a:link{
+  color:#0099CC;
+}
+a:visited{
+  color:#0099CC;
+}
+a:hover{
+  color:#FF9900;
+}
+
+/* 3. 共通のlayout */
+/* 全体の中央寄せ */
+#wrapper{
+  width: 950px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+p.sample3 {
+  font-size:20px;
+  color: #00b6f2;
+  font-family: Impact,Charcoal;
+}
+
+/* header -------------------------------- */
+header{
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+
+
+/* about -------------------------------- */
+
+
+
+
+/* main -------------------------------- */
+
+#main{
+
+}
+#hidari {
+  float: left;
+
+}
+
+#migi{
+  float: right;
+  width: 700px;
+  height: 600px;
+  background-image: url(back.jpg);
+}
+
+#study{
+  float: right;
+  width: 700px;
+  height: 2000px;
+  background-image: url(back.jpg);
+}
+
+#self{
+  float: right;
+  width: 700px;
+  height: 2100px;
+  background-image: url(back.jpg);
+}
+
+#fun{
+  float: right;
+  width: 700px;
+  height: 1600px;
+  background-image: url(back.jpg);
+}
+
+/* port-------------------------------- */
+#menu{
+  margin-top: 20px;
+}
+
+/* mail -------------------------------- */
+
+#mail{
+  margin-top: 20px;
+}
+
+
+
+/* footer -------------------------------- */
